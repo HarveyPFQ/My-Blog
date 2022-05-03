@@ -55,3 +55,25 @@ header .icons span:hover {
   color: darkcyan;
   font-size: 50px;
 } */
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+
+nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 2.8rem;
+  }
