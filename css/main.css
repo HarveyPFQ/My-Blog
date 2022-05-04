@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 html{
   font-size: 62.5%;
 }
@@ -12,7 +14,7 @@ body {
   right: 0;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
@@ -142,3 +144,115 @@ nav .profile-link a:hover {
   background-color: #59fed5;
   transform: scale(1.05);
 }
+
+/* Blog page */
+
+body.body-blogs {
+  position: unset;
+}
+
+.blog-main {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+
+.blog-main .main-news-container {
+  background-color: #e6e6e6;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 20px 40px 40px;
+}
+
+.main-news-image h2 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.main-news-image img {
+  width: 100%;
+}
+
+.blog-main .main-news-description {
+  align-self: center;
+  margin-left: 40px;
+}
+
+.main-news-container h1 {
+  font-size: 5rem;
+  line-height: 5.2rem;
+  letter-spacing: 6px;
+}
+
+.main-news-container p {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.main-news-container a {
+  display: block;
+  width: 80px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border: 2px solid #47cfac;
+  border-radius: 4px;
+}
+
+.main-news-container a:hover {
+  border: 2px solid #59fed5;
+}
+
+.blogs-container {
+  padding: 40px 40px 0;
+}
+
+.blogs-container__title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  border-bottom: 1px solid #c8c7c7;
+}
+
+.blogs-container .blog-items-container {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+
+.blog-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.blog-item h3 {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+.blog-item p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin: 8px 0 16px 0;
+}
+
+.blog-item a {
+  display: block;
+  width: 60px;
+  margin: 0 auto;
+  padding: 6px 30px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border: 2px solid #47cfac;
+  border-radius: 6px;
+}
+
+
