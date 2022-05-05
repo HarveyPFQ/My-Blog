@@ -1,0 +1,15 @@
+/* Resposive para pantallas desde 900px a mayores */
+
+@media (max-width: 900px) {
+
+}
+
+/* Responsive para pantalla desde 600px a 900px */
+@media (max-width: 600px) {
+
+}
+
+/* Responsive para pantalla desde 320px a 600px */
+@media (max-width: 320) {
+  
+}

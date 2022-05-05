@@ -360,3 +360,72 @@ footer p {
   font-size: 1.8rem;
   padding-left: 20px;
 }
+
+/* Profile page */
+.profile-main {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.about-me-container {
+  background-color: #c8c7c7;
+}
+
+.about-me-container .grid-container{
+  padding: 60px 60px;
+  display: flex;
+  align-items: center;
+}
+
+.about-me-container img {
+  width: 40%;
+}
+
+.about-me-container .about-me-contain {
+  padding-left: 40px;
+  width: 60%;
+  align-items: center;
+}
+
+.about-me-contain h1 {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 5rem;
+  letter-spacing: 2px;
+}
+
+.about-me-contain p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.my-projects-container {
+  padding: 60px 60px;
+}
+
+.my-projects-container h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.my-projects-container article {
+  display: inline-block;
+  width: calc(100% / 3 - 42px);
+  padding-top: 30px;
+}
+
+.my-projects-container .middle-project  {
+  margin: 0 60px;
+}
+
+.my-projects-container article h3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.my-projects-container article p {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
